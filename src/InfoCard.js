@@ -2,7 +2,7 @@ import React from 'react';
 import { Box, Heading, Subhead, Text } from 'rebass';
 
 export default ({ title, subTitle, description }) => (
-  <Box w={[1, 1/3]} p={[4, 3]}>
+  <Box w={[1, 1/3]} p={3}>
     <Heading textAlign="left" color="black" fontWeight="normal" fontSize={[2, 3]}>
       {title}
     </Heading>

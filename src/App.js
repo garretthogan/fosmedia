@@ -47,7 +47,7 @@ const services = [{
 const isMobile = () => navigator.userAgent.match(
   /(iPhone|iPod|iPad|Android|webOS|BlackBerry|IEMobile|Opera Mini)/i);
 
-const responsiveAlign = () => (isMobile() ? "left" : "left");
+const responsiveAlign = () => (isMobile() ? "left" : "center");
 
 class App extends Component {
   render() {
@@ -97,7 +97,7 @@ class App extends Component {
           <Heading color="black" textAlign="center" fontWeight="normal" fontSize={[7, 8]}>
             Who We Are
           </Heading>
-          <Text py={24} textAlign="center" color="black" fontWeight="small">
+          <Text py={24} textAlign={responsiveAlign()} color="black" fontWeight="small">
             We’re passionate about helping you find your creative voice. Founded in 2018, 
             we champion brands and etch them into the foundation of the community/target group. 
             We leverage your unique character to build strategic plans and deliver the right 
