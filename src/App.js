@@ -110,7 +110,18 @@ class App extends Component {
             Let's Connect
           </Heading>
           <Input placeholder="Email" />
-          <div style={{ paddingTop: 12 }}><ButtonOutline>Send</ButtonOutline></div>
+          <div style={{ paddingTop: 12 }}>
+            <ButtonOutline
+              style={{ padding: 8 }}
+              hover={{
+                color: 'white',
+                backgroundColor: 'orange',
+              }}
+              color="orange"
+            >
+              Send
+            </ButtonOutline>
+          </div>
         </Flex>
       </div>
     );
