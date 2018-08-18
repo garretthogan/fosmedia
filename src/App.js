@@ -86,7 +86,7 @@ class App extends Component {
             Inspire and engage.
           </Subhead>
         </Banner>
-        <Flex>
+        <Flex wrap>
           {(services && services.length) && services.map((service) => (
             <InfoCard
               {...service}
