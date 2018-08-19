@@ -1,9 +1,11 @@
 {
   "main.css": "static/css/main.0c5dad92.css",
   "main.css.map": "static/css/main.0c5dad92.css.map",
-  "main.js": "static/js/main.86e59650.js",
-  "main.js.map": "static/js/main.86e59650.js.map",
+  "main.js": "static/js/main.c04f076b.js",
+  "main.js.map": "static/js/main.c04f076b.js.map",
   "static/media/facebook.svg": "static/media/facebook.180a6ca6.svg",
   "static/media/fosmedia-logo.jpg": "static/media/fosmedia-logo.3e54d3ae.jpg",
-  "static/media/twitter.svg": "static/media/twitter.43449f1c.svg"
+  "static/media/instagram.svg": "static/media/instagram.6cbcb76e.svg",
+  "static/media/mail.svg": "static/media/mail.20e8982e.svg",
+  "static/media/splatter-face-painting.jpg": "static/media/splatter-face-painting.fc3a4443.jpg"
 }
