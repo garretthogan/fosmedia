@@ -8,10 +8,11 @@ import {
   Flex,
   Text,
   Input,
-  Divider,
 } from 'rebass';
 import Header from './Header';
 import InfoCard from './InfoCard';
+import splatter from './assets/splatter-face-painting.jpg';
+import { copyEmail } from './utils';
 
 const services = [{
   title: 'Marketing and Influence',
@@ -57,7 +58,7 @@ class App extends Component {
         <Banner
           color='white'
           bg='darken'
-          backgroundImage='https://images.unsplash.com/photo-1462331940025-496dfbfc7564?w=2048&q=20'
+          backgroundImage={splatter}
         >
           <Heading textAlign="center" fontWeight="normal" fontSize={[7, 8]}>
             Move Forward with Fos Media
@@ -73,8 +74,9 @@ class App extends Component {
                 backgroundColor: 'orange',
               }}
               color="orange"
+              onClick={copyEmail}
             >
-              <NavLink href='mailto:fos.media2020@gmail.com'>Get In Touch</NavLink>
+              <NavLink>Get In Touch</NavLink>
             </ButtonOutline>
           </div>
         </Banner>
@@ -105,24 +107,6 @@ class App extends Component {
             and is determined to see every job through to its success.            
           </Text>
         </Banner>
-        <Flex wrap alignItems="center" justifyContent="center" bg="white" p={12}>
-          <Heading py={12} color="black" textAlign="center" fontWeight="normal" fontSize={[2, 3]}>
-            Let's Connect
-          </Heading>
-          <Input placeholder="Email" />
-          <div style={{ paddingTop: 12 }}>
-            <ButtonOutline
-              style={{ padding: 8 }}
-              hover={{
-                color: 'white',
-                backgroundColor: 'orange',
-              }}
-              color="orange"
-            >
-              Send
-            </ButtonOutline>
-          </div>
-        </Flex>
       </div>
     );
   }
