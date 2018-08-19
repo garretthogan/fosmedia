@@ -7,7 +7,6 @@ import {
   ButtonOutline,
   Flex,
   Text,
-  Input,
 } from 'rebass';
 import Header from './Header';
 import InfoCard from './InfoCard';
