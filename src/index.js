@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom';
 import { Provider } from 'rebass';
 import './index.css';
 import App from './App';
-import registerServiceWorker from './registerServiceWorker';
 
 const theme = {
   fonts: {
@@ -21,4 +20,3 @@ const theme = {
 };
 
 ReactDOM.render(<Provider theme={theme}><App /></Provider>, document.getElementById('root'));
-registerServiceWorker();

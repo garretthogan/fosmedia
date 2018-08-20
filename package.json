@@ -1,6 +1,5 @@
 {
   "name": "fosmedia",
-  "homepage": "http://garretthogan.github.io/fosmedia",
   "version": "1.0.0",
   "private": false,
   "dependencies": {
